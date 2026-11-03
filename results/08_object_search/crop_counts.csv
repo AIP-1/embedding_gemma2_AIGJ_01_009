@@ -1,0 +1,39 @@
+run,mode,label,count
+1차 촬영,yolo,laptop,23
+1차 촬영,yolo,book,6
+1차 촬영,yolo,mouse,5
+1차 촬영,yolo,cell phone,3
+1차 촬영,yolo,tv,2
+1차 촬영,yolo,teddy bear,2
+1차 촬영,yolo,chair,2
+1차 촬영,yolo,airplane,2
+1차 촬영,yolo,cup,1
+2차 촬영 (README 물체),yolo,laptop,23
+2차 촬영 (README 물체),yolo,cell phone,6
+2차 촬영 (README 물체),yolo,book,4
+2차 촬영 (README 물체),yolo,keyboard,3
+2차 촬영 (README 물체),yolo,tv,2
+2차 촬영 (README 물체),yolo,refrigerator,1
+2차 촬영 (README 물체),yolo,dog,1
+2차 촬영 (README 물체),yolo,cup,1
+2차 촬영 (README 물체),yolo,cat,1
+세탁기 추가,yolo,microwave,4
+세탁기 추가,yolo,laptop,3
+세탁기 추가,yolo,cell phone,3
+세탁기 추가,yolo,tv,2
+세탁기 추가,yolo,chair,1
+세탁기 추가,yolo,bottle,1
+세탁기 추가,yolo,keyboard,1
+relabel,relabel,laptop,7
+relabel,relabel,cell phone,4
+relabel,relabel,bed,2
+relabel,relabel,microwave,1
+relabel,relabel,cup,1
+relabel,relabel,keyboard,1
+yoloe,yoloe,cell phone,6
+yoloe,yoloe,laptop,2
+yoloe,yoloe,book,2
+yoloe,yoloe,AA battery,1
+yoloe,yoloe,cup,1
+yoloe,yoloe,drum washing machine,1
+yoloe,yoloe,microwave,1

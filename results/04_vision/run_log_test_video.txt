@@ -1,0 +1,12 @@
+$ python test_video.py
+Loading weights: 100%|█████████████████| 624/624 [00:00<00:00, 2376.68it/s]
+추출 프레임 (10, 480, 640, 3)
+[transformers] Asked to sample uniformly with `fps`, but the video metadata has no `fps` or `duration`. Keeping every frame and applying only the `max_frames` budget.
+
+[동영상 clip.mp4] 3718 ms
+  모니터와 페트병이 놓인 빈 책상: 0.713
+  게 그림이 있는 회색 맨투맨: 0.658
+  형광등과 천장 에어컨이 있는 강의실 천장: 0.614
+  강의실에 앉아 있는 학생: 0.695
+
+GPU 메모리 최대 1.27 GB

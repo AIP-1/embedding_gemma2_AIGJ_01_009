@@ -1,0 +1,7 @@
+object,yolo,relabel,relabel_score,yoloe,note
+컵,cup (O),컵 (O),0.688,cup (O),검은 텀블러로 촬영. relabel 2위 물병 0.665
+노트북,laptop (O),노트북 (O),0.71~0.74,laptop (O),세 모드 모두 정답
+휴대폰,cell phone (O),휴대폰 (O),0.73~0.75,cell phone (O),세 모드 모두 정답
+드럼 세탁기,microwave (X),통돌이 세탁기 (△),0.702,drum washing machine (O),화면에 띄운 사진. relabel 2위 드럼 세탁기 0.698
+원통형 전지 포장,cell phone (X),미검출 (X),-,cell phone (X),yoloe는 박스 검출. 건전지를 뺀 빈 포장
+건전지,cell phone (X),건전지 (O),0.729,AA battery (O),relabel의 YOLO 원래 라벨 bed. yoloe는 2개를 함께 들면 cell phone

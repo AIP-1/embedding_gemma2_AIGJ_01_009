@@ -1,0 +1,19 @@
+$ python relabel_check.py crops/relabel
+(app.py relabel과 같은 LABELS·512차원·LABEL_MIN 0.20으로 크롭을 다시 재라벨. 사진 확인 결과는 오른쪽 # 주석)
+파일                               YOLO         → 재라벨            점수   2위
+000001_keyboard.jpg              keyboard     → 키보드            0.711  노트북(0.677)        # 노트북 키보드 부분
+000002_laptop.jpg                laptop       → 노트북            0.713  모니터(0.691)        # 노트북
+000003_laptop.jpg                laptop       → 모니터            0.717  노트북(0.663)        # 노트북 화면 뒷면
+000004_laptop.jpg                laptop       → 노트북            0.740  키보드(0.714)        # 노트북
+000005_laptop.jpg                laptop       → 노트북            0.722  키보드(0.704)        # 노트북
+000006_cell phone.jpg            cell phone   → 휴대폰            0.729  모니터(0.638)        # 휴대폰
+000007_laptop.jpg                laptop       → 노트북            0.707  키보드(0.672)        # 노트북
+000008_cup.jpg                   cup          → 컵              0.688  물병(0.665)          # 검은 텀블러
+000009_laptop.jpg                laptop       → 노트북            0.722  키보드(0.696)        # 노트북
+000010_bed.jpg                   bed          → 모니터            0.665  노트북(0.662)        # Jetson 보드 + 사람 팔 (저장소 미포함)
+000011_bed.jpg                   bed          → 건전지            0.729  원통형 전지 포장(0.644)  # 건전지 2개
+000012_microwave.jpg             microwave    → 통돌이 세탁기        0.702  드럼 세탁기(0.698)     # 드럼 세탁기 사진
+000013_cell phone.jpg            cell phone   → 모니터            0.690  노트북(0.690)        # 노트북 화면 모서리
+000014_laptop.jpg                laptop       → 노트북            0.708  키보드(0.702)        # 노트북
+000015_cell phone.jpg            cell phone   → 휴대폰            0.735  키보드(0.684)        # 휴대폰 (흔들림)
+000016_cell phone.jpg            cell phone   → 휴대폰            0.747  키보드(0.690)        # 휴대폰 (흔들림)

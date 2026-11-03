@@ -1,0 +1,8 @@
+$ python check.py
+torch 2.14.1+cu132 cuda True
+transformers 5.20.1
+sentence-transformers 6.2.0
+
+# user_setup.sh 마지막 단계
+$ python -c "from eg2 import load; m = load(); print(m.encode('test').shape)"
+(768,)

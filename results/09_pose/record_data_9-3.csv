@@ -1,0 +1,8 @@
+file,attempts,lines,duration_note,rule_label_note
+data/action/idle.csv,1,681,약 50초,가만히 있는 동안 한팔들기 1회 판정
+data/action/wave.csv,1,-,약 30초,규칙은 한팔들기 18회·손흔들기 17회로 계속 오감
+data/action/clap.csv,1,-,약 36초 이상,규칙에 없는 동작이라 판정 0
+data/action/arms_crossed.csv,1,-,약 70초,규칙에 없는 동작이라 판정 0
+data/behavior/passing.csv,29,450,모두 3초 이하 (최대 36프레임),30프레임 이상 2회·50프레임 이상 0회
+data/behavior/glance.csv,10 (19회 중 선별),575,대부분 5~7초,속도 0.5 이상·정면 4초 이하만 남김 (원본 2481줄)
+data/behavior/interested.csv,32 (유효 약 29회),-,대부분 8~13초,정면 4~10초

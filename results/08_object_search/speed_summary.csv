@@ -1,0 +1,4 @@
+mode,fps_mean,fps_median,fps_min,embed_ms_mean,ram_mb_mean,ram_mb_median,samples
+yolo,12.1,12.9,4.9,819,4804,4749,44
+relabel,10.8,11.7,5.6,838,4995,4871,28
+yoloe,10.0,10.7,4.7,837,5061,5084,16
